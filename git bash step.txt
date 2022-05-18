@@ -1,0 +1,19 @@
+new source repo:
+git config --global user.name "Reinaldy"
+git config --global user.email "test@telkom.co.id"
+
+
+mkdir blablabla
+cd blablabla
+git init
+touch readme.md <<< make readme.md file
+git add readme.md
+git commit -m "your comment"
+git remote add origin <><>http or ssh<><><>
+git push -u origin master
+
+update source:
+git status (buat liat file apa aja yang harus ditambahkan)
+git add (nama file) atau git add . (untuk semua file)
+git commit -m "your comment"
+git push origin master
